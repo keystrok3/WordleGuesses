@@ -1,0 +1,36 @@
+.guess-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: .25em;
+    width: 30%;
+    height: 32vmax;
+    margin: 1em auto;
+}
+
+
+
+.letter-cell {
+    border: 2px solid #707070;
+    color: #000000de;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+}
+
+
+.letter-cell[data-color="GREEN"] {
+    background-color: green;
+    border-color: green;
+}
+
+.letter-cell[data-color="YELLOW"] {
+    background-color: yellow;
+    border-color: yellow;
+}
+
+.letter-cell[data-color="GREY"] {
+    background-color: grey;
+    border-color: grey;
+}

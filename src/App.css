@@ -1,0 +1,8 @@
+#root {
+  max-width: 1280px;
+}
+
+.wordle-app {
+  display: flex;
+  flex-direction: column;
+}
